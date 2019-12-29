@@ -1,0 +1,175 @@
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="javascript.js">
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+</script>
+</div>
+<button onclick="setRandomColor()">Random Color
+</button>
+<body>
+
+    <div class="container">
+      <div id="content">
+
+<!-- BB RP Update Rows -->
+
+        <div class="sizeCorrector">
+          <div class="Row">
+            <div class="Column top">
+              <p id="updateRoll" class="top"></p>
+            </div>
+            <div class="Column top">
+              <p id="updateItem" class="top">Click a button!</p>
+            </div>
+            <div class="Column top">
+              <p id="Pokemon" class="top"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="Row">
+          <div class="Column bottom">
+              <ul>
+                <button class="gen" onclick="chooseRPBonus(); setRandomColor();">Roleplay Bonus
+                </button>
+              </ul>
+          </div>
+          <div class="Column bottom">
+              <ul>
+                <button class="gen" onclick="randomRoleplayItem(); setRandomColor();">RP Update Item
+                </button>
+              </ul>
+          </div>
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="pokemonRoll(); setRandomColor();">Unevolved Pokemon
+              </button>
+            </ul>
+          </div>
+        </div>
+
+
+<!-- BB RP Bonus rows -->
+
+        <div class="sizeCorrector">
+          <div class="Row">
+            <div class="Column top">
+              <p id="BBItem" class="top"></p>
+            </div>
+            <div class="Column top">
+              <p id="BBTier" class="top"></p>
+            </div>
+            <div class="Column top">
+              <p id="SalonRoll" class="top"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="Row">
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="randomBBItem(); setRandomColor();">BB Bonus Item
+              </button>
+            </ul>
+          </div>
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="randomBB(); setRandomColor();">Shiny/Special roll
+              </button>
+            </ul>
+          </div>
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="rollSalon(); setRandomColor();">Fancy Locked Container
+              </button>
+            </ul>
+          </div>
+        </div>
+
+
+<!-- Lab Rows -->
+
+        <div class="sizeCorrector">
+          <div class="Row">
+            <div class="Column top">
+              <p id="oddCoin" class="top"></p>
+            </div>
+            <div class="Column top">
+              <p id="labStrange" class="top"></p>
+            </div>
+            <div class="Column top">
+              <p id="mysteriousFossil" class="top"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="Row">
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="labCoin(); setRandomColor();">Odd Coin Value
+              </button>
+            </ul>
+          </div>
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="labItem(); setRandomColor();">Mysterious / Strange
+              </button>
+            </ul>
+          </div>
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="labFossil(); setRandomColor();">Fossil Pokemon
+              </button>
+            </ul>
+          </div>
+        </div>
+
+<!-- Misc -->
+        <div class="sizeCorrector">
+          <div class="Row">
+            <div class="Column top">
+              <p id="goldMedal" class="top"></p>
+            </div>
+            <div class="Column top">
+              <p id="randomize" class="top"></p>
+            </div>
+            <div class="Column top sayings">
+              <p id="randomSaying" class="top"></p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="Row">
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="raceWin(); setRandomColor();">Race Winner
+              </button>
+            </ul>
+          </div>
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="randomNumber(); setRandomColor();">A number
+              </button>
+            </ul>
+          </div>
+          <div class="Column bottom">
+            <ul>
+              <button class="gen" onclick="memeZone(); setRandomColor();">Mod Sayings
+              </button>
+            </ul>
+          </div>
+        </div>
+
+<!-- Code credit to pixelpixies/Kayla Morgan, all rights reserved ©2018 -->
+        <div class="Row">
+            <div class="Column bottom">Code credit to Kayla M. Morgan aka pixelpixies#1942.</div>
+          </div>
+<!-- End of Rows -->
+      </div>
+    </div>
+    </div>

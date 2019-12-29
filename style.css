@@ -1,0 +1,133 @@
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  background-image: url('https://orig00.deviantart.net/97b5/f/2018/009/0/3/forest_by_arkeis_andor_by_iamirrora-dbzi4wu.jpg');
+  background-position: top;
+  z-index: -2;
+  display: inline;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+.sayings {
+  font-size: 50%;
+}
+
+.sizeCorrector {
+  min-height: 150px;
+  max-height: 150px;
+  height:150px;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.top {
+  height: 150px;
+  max-height: 150px;
+  vertical-align: middle;;
+}
+
+
+.Row
+{
+    display: table;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+.Column
+{
+    display: table-cell;
+    background-color: #52ca2b;
+    vertical-align: middle;
+    border-radius: 20px;
+    border: 12px #6eff00 outset;
+  }
+
+
+
+
+span {
+  border-radius: 100px;
+  opacity: 0.75;
+  filter: alpha(opacity=75); /* For IE8 and earlier */
+}
+
+#content {
+} p {
+  max-width: 30em;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 40px auto;
+  line-height: 145%;
+  font-size: 190%;
+}
+
+#reward {
+} p {
+  max-width: 30em;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 20px auto;
+  line-height: 145%;
+  font-size: 190%;
+}
+}
+
+p :hover {
+  text-decoration: none;
+}
+
+.container {
+  padding-top: 6em;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+.gen {
+  outline: none;
+  padding-top: 5px;
+  text-decoration: none;
+  opacity: 0.6;
+  background-color: black;
+  color: white;
+  height: 40px;
+  width:100px;
+  border: thin solid white;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.gen:hover {
+  background-color: white;
+  color: black;
+  border: thin solid black;
+  opacity: 0.8;
+}
+
+.gen a {
+  text-decoration: none;
+}
+
+img {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
